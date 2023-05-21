@@ -110,6 +110,52 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             
+
+            <tr onmouseout="cvpr23_stop()" onmouseover="cvpr23_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cvpr23_image'>
+                  <img src='images/cvpr23_after_2.png' width="160"></div>
+                <img src='images/cvpr23_before_2.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function cvpr23_start() {
+                  document.getElementById('cvpr23_image').style.opacity = "1";
+                }
+
+                function cvpr23_stop() {
+                  document.getElementById('cvpr23_image').style.opacity = "0";
+                }
+                flare_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Complementary intrinsics from neural radiance fields and CNNs for outdoor scene relighting</papertitle>
+              </a>
+              <br>
+              <a href="">Siqi Yang</a>,
+              <a href="">Xuanning Cui</a>,
+              <strong>Yongjie Zhu</strong>,
+              <a href="">Jiajun Tang</a>,
+              <a href="">Si Li</a>,
+              <a href="">Zhaofei Yu</a>, 
+              <a href="http://alumni.media.mit.edu/~shiboxin/index.html">Boxin Shi</a>
+              <br>
+              <em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2023  
+ 
+              <br>
+              <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Complementary_Intrinsics_From_Neural_Radiance_Fields_and_CNNs_for_Outdoor_CVPR_2023_paper.pdf">[paper]</a>   &nbsp; 
+              <a href="https://openaccess.thecvf.com/content/CVPR2023/supplemental/Yang_Complementary_Intrinsics_From_CVPR_2023_supplemental.pdf">[supp]</a>  &nbsp;  
+              <a href="data/Yang_CVPR_2023.bib">[bibtex]</a>  &nbsp; 
+              <!-- <a href="https://github.com/ChemJeff/SOLD-Net/">[project]</a>  -->
+              <p>
+                This paper proposes to complement the intrinsic estimation from volume rendering using NeRF and from inversing the photometric image formation model using convolutional neural networks (CNNs).
+              </p>
+            </td>
+          </tr> 
+ 
+            
           <tr onmouseout="eccv22_stop()" onmouseover="eccv22_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
@@ -194,7 +240,7 @@
               <br>
               <a href="https://ci.idm.pku.edu.cn/Zhu_MM22.pdf">[paper]</a>   &nbsp; 
               <a href="data/Zhu_MM_2022.bib">[bibtex]</a>  &nbsp; 
-              <a href="https://github.com/microsoft/CommercialAdsDataset/">[project]</a>
+              <a href="https://github.com/microsoft/CommercialAdsDataset/">[data]</a>
               <p>
                 We propose a multi-modal relevance modeling approach for sponsored search, and boost the performance via contrastive learning that naturally extends the transformer encoder with the complementary multi-modal inputs. 
               </p>
