@@ -25,15 +25,17 @@
               <!-- <p>I am a third year Master student in the School of Artificial Intelligence at <a href="https://www.bupt.edu.cn/">Beijing University of Posts and Telecommunications (BUPT)</a>, supervised by Prof. <a href="https://www.pris.net.cn/introduction/teacher/lisi">Si Li</a> and Prof. <a href="http://alumni.media.mit.edu/~shiboxin/index.html">Boxin Shi</a>.  -->
               </p>
               <p>
-                Previously, I was a research intern at <a href="https://en.wikipedia.org/wiki/Microsoft">Microsoft</a>, where I work on computer vision and natural language processing. I also worked as a research intern at Tencent, WXG. At Tencent, I've worked on <a href="">3D Human Body Estimation</a> and <a href="">Face Appearance Modeling</a> under the guidance of Dr. <a href="https://www.lichenpro.com/">Chen Li</a>. Before that, I got my Bachelor's degree at BUPT. I've received the China National Scholarship (top 1%) at BUPT. 
+                Previously, I was a research intern at <a href="https://en.wikipedia.org/wiki/Microsoft">Microsoft</a>, where I work on computer vision and natural language processing. I also worked as a research intern at Tencent, WXG. At Tencent, I've worked on <a href="">3D Human Body Estimation</a> and <a href="">Face Appearance Modeling</a> under the guidance of Dr. <a href="https://www.lichenpro.com/">Chen Li</a>. 
+              </p>
+              <p>I am looking for self-motivated interns for mulimodal understanding and generation research! If you are interested in <b>internship at Kling or collaboration of research</b>, please email me.
               </p>
               <p style="text-align:center">
                 <a href="mailto:yongjie.zhu.96@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="data/YongjieZhu-CV.pdf">CV</a> &nbsp/&nbsp
-                <a href="data/YongjieZhu-bio.txt">Bio</a> &nbsp/&nbsp
+                <!-- <a href="data/YongjieZhu-CV.pdf">CV</a> &nbsp/&nbsp -->
+                <!-- <a href="data/YongjieZhu-bio.txt">Bio</a> &nbsp/&nbsp -->
                 <a href="https://scholar.google.com/citations?user=AQLfp6cAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
-                <a href="https://www.linkedin.com/in/yongjie-zhu-%E6%9C%B1%E5%8B%87%E6%9D%B0-38a145156/">LinkedIn</a> &nbsp/&nbsp
-                <a href="https://github.com/Yongjie-Zhu/">Github</a>
+                <a href="https://www.linkedin.com/in/yongjie-zhu-%E6%9C%B1%E5%8B%87%E6%9D%B0-38a145156/">LinkedIn</a> &nbsp &nbsp
+                <!-- <a href="https://github.com/Yongjie-Zhu/">Github</a> -->
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -102,9 +104,9 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
-              <heading>Publications</heading>
+              <heading>Selected Publications</heading>
               <br>
-              (* indicates equal contribution, † indicates project lead.)
+              (See full list at  <a href="https://scholar.google.com/citations?user=AQLfp6cAAAAJ&hl=en">Google Scholar</a>, * indicates equal contribution, † indicates project lead.)
               <p>
                 My research interests lie in multimodal understanding, with an emphasis on integrating vision, audio, language, and physical cues for grounded reasoning. Recently, I have focused on physics-aware and generative approaches to help models understand the physical structure and dynamics of the world, enabling richer multimodal perception and reasoning.
               </p>
@@ -114,6 +116,140 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
 
+            <tr onmouseout="eccv26_stop()" onmouseover="eccv26_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='eccv26_image'>
+                  <img src='images/eccv26_before.png' width="160"></div>
+                <img src='images/eccv26_after.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function eccv26_start() {
+                  document.getElementById('eccv26_image').style.opacity = "1";
+                }
+
+                function eccv26_stop() {
+                  document.getElementById('eccv26_image').style.opacity = "0";
+                }
+                flare_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings</papertitle>
+              </a>
+              <br>
+              <a href="">Haonan Jiang*</a>,
+              <a href="">Yuji Wang*</a>, 
+              <strong>Yongjie Zhu†</strong>,
+              <a href="">Xin Lu</a>, 
+              <a href="">Wenyu Qin</a>,
+              <a href="">Meng Wang</a>,
+              <a href="">Pengfei Wan</a>,
+              <a href="">Yansong Tang</a>
+              <br>
+              <em>Arxiv</em>, 2026 &nbsp;
+ 
+              <br>
+              <a href="https://arxiv.org/abs/2602.13823">[paper]</a>   &nbsp;               
+              <a href="https://github.com/ZoengHN/Embed-RL">[project]</a>  &nbsp; 
+              <!-- <a href="https://github.com/ChemJeff/SOLD-Net/">[project]</a>  -->
+              <p>
+              We propose a reasoning-driven Universal Multimodal Embedding framework that leverages Embedder-Guided Reinforcement Learning to generate retrieval-aligned, evidential Traceability CoTs, significantly improving cross-modal semantic consistency, fine-grained matching, and benchmark performance under limited computational resources.
+              </p>
+            </td>
+          </tr> 
+
+            
+          <tr onmouseout="icml26_stop()" onmouseover="icml26_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='icml26_image'>
+                  <img src='images/icml26_b.png' width="160"></div>
+                <img src='images/icml26_a.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function icml26_start() {
+                  document.getElementById('icml26_image').style.opacity = "1";
+                }
+
+                function icml26_stop() {
+                  document.getElementById('icml26_image').style.opacity = "0";
+                }
+                flare_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Analytic Score Optimization for Multi Dimension Video Quality Assessment</papertitle>
+              </a>
+              <br>
+              <a href="">Boda Lin</a>,              
+              <strong>Yongjie Zhu†</strong>,
+              <a href="">Wenyu Qin</a>,
+              <a href="">Meng Wang</a>,
+              <a href="">Pengfei Wan</a>
+              <br>
+              <em>Arxiv</em>, 2026 &nbsp;
+ 
+              <br>
+              <a href="https://www.arxiv.org/abs/2602.16856">[paper]</a>   &nbsp;               
+              <a href="">[project]</a>  &nbsp; 
+              <!-- <a href="https://github.com/ChemJeff/SOLD-Net/">[project]</a>  -->
+              <p>
+               We introduce UltraVQA, a large-scale multi-dimensional video quality assessment dataset with rich human and GPT-augmented annotations, and propose Analytic Score Optimization (ASO), a theoretically grounded post-training objective that models quality assessment as a regularized decision process, achieving superior performance and lower MAE compared to existing closed- and open-source baselines. 
+              </p>
+            </td>
+          </tr> 
+
+
+            
+          <tr onmouseout="cvpr26_stop()" onmouseover="cvpr26_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='cvpr26_image'>
+                  <img src='images/cvpr26_before_1.png' width="160"></div>
+                <img src='images/cvpr26_after.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function cvpr26_start() {
+                  document.getElementById('cvpr26_image').style.opacity = "1";
+                }
+
+                function cvpr26_stop() {
+                  document.getElementById('cvpr26_image').style.opacity = "0";
+                }
+                flare_stop()
+              </script>
+            </td>
+            <td style="padding:0px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Beyond the Golden Data: Resolving the Motion-Vision Quality Dilemma via Timestep Selective Training</papertitle>
+              </a>
+              <br>
+              <a href="">Xiangyang Luo</a>,
+              <a href="">Qingyu Li</a>,
+              <a href="">Yuming Li</a>,
+              <a href="">Guanbo Huang</a>, 
+              <strong>Yongjie Zhu</strong>,
+              <a href="">Wenyu Qin</a>,
+              <a href="">Meng Wang</a>, 
+              <a href="">Pengfei Wan</a>,              
+              <a href="">Shao-Lun Huang</a> 
+              <br>
+              <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2026 &nbsp;
+ 
+              <br>
+              <a href="">[paper]</a>   &nbsp;               
+              <a href="">[project]</a>  &nbsp; 
+              <!-- <a href="https://github.com/ChemJeff/SOLD-Net/">[project]</a>  -->
+              <p>
+               We identify a negative correlation between visual and motion quality in video data and propose Timestep-aware Quality Decoupling (TQD), which leverages timestep-specific sampling to decouple imbalanced data and achieve performance surpassing conventional training with even better data. 
+              </p>
+            </td>
+          </tr> 
+
+            
           <tr onmouseout="nips25_stop()" onmouseover="nips25_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
               <div class="one">
